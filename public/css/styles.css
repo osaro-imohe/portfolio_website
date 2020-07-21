@@ -299,4 +299,8 @@ a:hover{
     .intro_contact{
         font-size: 2.5vh;
     }
+    .img{
+        padding: 0px;
+        margin: 0px;
+    }
   }
