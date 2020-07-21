@@ -1,0 +1,110 @@
+html, body { height: 100%; width: 100%; margin: 0; overflow: hidden;}
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+.container_light{
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    color: #444452;
+    background-color: white;
+}
+.container_dark{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: #171c28;
+    overflow: scroll;
+}
+.toggle_container{
+    height: 25px;
+    width: 45px;
+    border: none;
+    border-radius: 100px;
+    background-color: #BAE67D;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.toggle_dark{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 100%;
+    margin-top: 2.49px;
+    float: right;
+}
+.toggle_light{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 100%;
+    margin-top: 2.49px;
+    float: left;
+}
+#toggle{
+    transition: 0.5s all ease !important;
+}
+#sun{
+    width: 15px;
+}
+
+#moon{
+    width: 15px;
+    color: white;
+}
+.toggle_icon{
+    display: flex;
+    float: right;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.header{
+    width: 100%;
+    min-height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: transparent;
+    align-items: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box;
+}
+.lost{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 30%;
+    position: absolute;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+     text-align: center;
+     padding-left: 1vw;
+     padding-right: 1vw;
+}
+.lost_emoji{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 4.5vh;
+}
+.bold_text_light{
+    color: #36373B;
+    font-weight: bold;
+}
+.bold_text_dark{
+    color:white;
+    font-weight: bold;
+}
