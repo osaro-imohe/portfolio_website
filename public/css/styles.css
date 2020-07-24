@@ -182,10 +182,11 @@ a:hover{
     margin-right: 5px;
     font-size: 1.5vh;
     font-weight: 700;
-    margin-bottom: 8vh !important;
+    margin-bottom: 5px !important;
 }
 .tags_container{
     margin: 0;
+    margin-bottom: 8vh !important;
 }
 .footer{
     min-height: 10%;
