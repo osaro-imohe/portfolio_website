@@ -105,6 +105,11 @@ a:hover{
 }
 .damp_text{
     color:#444452;
+    font-weight: 100;
+}
+.light_text{
+    color:white;
+    font-weight: 100;
 }
 .bold_text_light{
     color: #36373B;
