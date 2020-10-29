@@ -282,6 +282,10 @@ a:hover{
     font-size: 0.9rem !important;
     font-family: Inconsolata,monospace;
 }
+.right_arrow{
+    width: 15px;
+    margin-left: 15px;
+}
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .about_inner{
